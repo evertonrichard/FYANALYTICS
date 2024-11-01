@@ -7,18 +7,68 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@400;500;600&display=swap" />
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600&display=swap" />
     <link rel="stylesheet" href="index.css" />
+    <style>
+      .frame-1 {
+    display: flex;
+    justify-content: space-around; /* Espalha os itens uniformemente */
+    align-items: center; /* Centraliza os itens verticalmente */
+    padding: 20px; /* Espaçamento interno */
+    color: white; /* Cor do texto */
+    font-family: 'Inter', sans-serif; /* Fonte utilizada */
+}
+
+.frame-1 a {
+    color: white; /* Cor dos links */
+    text-decoration: none; /* Remove sublinhado dos links */
+    padding: 10px 15px; /* Espaçamento ao redor do texto do link */
+    border-radius: 5px; /* Cantos arredondados */
+    transition: background-color 0.3s; /* Transição suave para cor de fundo */
+}
+
+.frame-1 a:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Efeito de hover */
+}
+
+.servicos {
+    margin-left: 20px; /* Espaçamento à esquerda para 'Serviços' */
+}
+
+.span {
+    margin: 0 10px; /* Margem horizontal entre os itens */
+}
+.grid-container {
+  display: grid;
+  gap: 10px; /* Espaçamento entre os elementos do grid */
+  padding: 0;
+}
+
+.frame-21, .frame-26, .frame-2b {
+  padding: 10px;
+ 
+}
+
+.line-separacao {
+  width: 60%;         /* Define a largura da linha como 40% */
+  height: 1px;        /* Define a altura da linha */
+  background-color: #ccc;
+  margin: 10px auto;  /* Centraliza a linha e adiciona um espaço vertical */
+}
+
+
+
+    </style>
   </head>
   <body>
     <div class="main-container">
       <div class="frame">
         <div class="group"></div>
         <div class="frame-1">
-          <span class="quem-somos">Quem Somos </span>
+          <span class="quem-somos">Quem Somos</a></span>
           <div class="servicos">
-            <span class="servicos-2">Serviços</span><span class="nbsp"> </span>
+              <a href="#Servicoss"><span class="servicos-2">Serviços</span></a><span class="nbsp"> </span>
           </div>
-          ><span class="produtos">Produtos </span
-          ><span class="contato">Contato</span>
+          <a href="#produtos"><span class="produtos">Produtos</span></a>
+          <a href="#contato"><span class="contato">Contato</span></a>
         </div>
       </div>
       <div class="flex-row-c">
@@ -29,12 +79,14 @@
           ><span class="em-analise-renda-fixa"
             >em Análise de <br />Renda Fixa</span
           >
+          
         </div>
         <div class="empty"></div>
         <div class="group-4"></div>
         <div class="fluent-ios-arrow-filled"></div>
         <div class="frame-5"></div>
       </div>
+      <div id="Quem-somos">
       <div class="flex-row-d">
         <div class="frame-6">
           <div class="frame-7">
@@ -51,8 +103,10 @@
               produção de ferramentas, dados e análises
               <br />diferenciados</span
             >
+            
           </div>
         </div>
+        
         <div class="logo"></div>
         <div class="frame-a">
           <span class="equipe">Conheça nossa equipe </span>
@@ -132,6 +186,7 @@
           </div>
         </div>
       </div>
+    </div>
       <div class="frame-1b">
         <span class="desafios-que-enfrentamos">Desafios que enfrentamos</span>
         <div class="frame-1c">
@@ -162,50 +217,51 @@
         <div class="line"></div>
         <div class="line-20"></div>
       </div>
-      <span class="nossa-abordagem">Nossa Abordagem </span>
-
-      <div class="frame-21">
-        <div class="group-22">
-          <span class="number-one">1</span>
-          <div class="ellipse-23"></div>
+      <div class="grid-container">
+        <div class="frame-21">
+          <div class="group-22">
+            <span class="number-one">1</span>
+            <div class="ellipse-23"></div>
+          </div>
+          <span class="modelo-precificacao-independente">Modelo de precificação independente</span>
+          <span class="elimina-conflitos-transparencia">
+            Elimina conflitos de interesse.<br />
+            Aumenta a transparência e governança do mercado.<br />
+            Incentiva a concorrência e inovação.
+          </span>
         </div>
-        <span class="modelo-precificacao-independente">Modelo de precificação independente</span>
-        <span class="elimina-conflitos-transparencia">
-          Elimina conflitos de interesse.<br />
-          Aumenta a transparência e governança do mercado.<br />
-          Incentiva a concorrência e inovação.
-        </span>
+        
+        <div class="line-separacao"></div> <!-- Linha separadora -->
+      
+        <div class="frame-26">
+          <div class="group-27">
+            <span class="number-two">2</span>
+            <div class="ellipse-28"></div>
+          </div>
+          <span class="coleta-abrangente-dados">Coleta Abrangente de Dados</span>
+          <span class="integra-dados-mercado">
+            Integra dados de mercado primário e secundário.<br />
+            Captura eventos corporativos em tempo real.<br />
+            Utiliza modelos proprietários de econometria e IA.
+          </span>
+        </div>
+        
+        <div class="line-separacao"></div> <!-- Linha separadora -->
+      
+        <div class="frame-2b">
+          <div class="group-2c">
+            <span class="number-three">3</span>
+            <div class="ellipse-2d"></div>
+          </div>
+          <span class="metodologia-robusta">Metodologia Robusta</span>
+          <span class="precificacao-sob-medida">
+            Precificação sob medida para cada tipo de ativo.<br />
+            Processos detalhados para ativos líquidos e ilíquidos.<br />
+            Múltiplas técnicas de validação.
+          </span>
+        </div>
       </div>
       
-      <div class="line-separacao"></div> <!-- Linha separadora -->
-      
-      <div class="frame-26">
-        <div class="group-27">
-          <span class="number-two">2</span>
-          <div class="ellipse-28"></div>
-        </div>
-        <span class="coleta-abrangente-dados">Coleta Abrangente de Dados</span>
-        <span class="integra-dados-mercado">
-          Integra dados de mercado primário e secundário.<br />
-          Captura eventos corporativos em tempo real.<br />
-          Utiliza modelos proprietários de econometria e IA.
-        </span>
-      </div>
-      
-      <div class="line-separacao"></div> <!-- Linha separadora -->
-      
-      <div class="frame-2b">
-        <div class="group-2c">
-          <span class="number-three">3</span>
-          <div class="ellipse-2d"></div>
-        </div>
-        <span class="metodologia-robusta">Metodologia Robusta</span>
-        <span class="precificacao-sob-medida">
-          Precificação sob medida para cada tipo de ativo.<br />
-          Processos detalhados para ativos líquidos e ilíquidos.<br />
-          Múltiplas técnicas de validação.
-        </span>
-      </div>
       
       
       <div class="frame-2f">
@@ -347,5 +403,39 @@
       <div class="rectangle"></div>
     </div>
     <!-- Generated by Codia AI - https://codia.ai/ -->
+ 
+     
+      <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Seleciona cada item do menu pelo texto do link e aplica a rolagem suave
+    document.querySelector(".frame-1").addEventListener("click", function(event) {
+      let targetText = event.target.innerText.trim();
+      let targetSection;
+
+      switch (targetText) {
+        case "Quem Somos":
+          targetSection = document.querySelector(".flex-row-d");
+          break;
+        case "Serviços":
+          targetSection = document.querySelector(".frame-2f");
+          break;
+        case "Produtos":
+          targetSection = document.querySelector(".grid-container");
+          break;
+        case "Contato":
+          targetSection = document.querySelector(".flex-row-fbf");
+          break;
+      }
+
+      // Se a seção alvo foi encontrada, rolar até ela
+      if (targetSection) {
+        event.preventDefault();
+        targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+      }
+    });
+  });
+</script>
+
+     </script>
   </body>
 </html>
